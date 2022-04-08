@@ -1,0 +1,26 @@
+# Package Files #
+*.jar
+*.war
+*.ear
+
+hs_err_pid*
+.settings/
+.project
+.classpath
+.springBeans
+**/target/
+/commit.txt
+/*/logs/
+/*/wrk/
+effective-pom.xml
+effective-settings.xml
+/*/.gwt/
+.cache
+.idea/
+*.iml
+*.log
+*.lck
+*.jar
+*/dependency-reduced-pom.xml
+node_modules
+.DS_Store

@@ -1,0 +1,20 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:13.6
+    restart: always
+    environment:
+      POSTGRES_DB: "wb-3"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "1q2w3e"
+    ports:
+      - "5432:5432"
+
+  nats-stream:
+    image: nats-streaming
+    restart: always
+    ports:
+      - "8222:8222"
+      - "4222:4222"
+
